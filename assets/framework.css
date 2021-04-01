@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+.row {
+    width:100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+   
+}
+
+.dbg [class*="col-"]{
+    background-color: #FFC0CB;
+    border: 0.5px solid black;
+    height: 200px;
+}
+
+
+[class*="col-"] > p{
+    font-size: 10px;
+    text-align: center;
+    line-height: 200px;
+}
+
+/* colonne footer */
+.container_sm {
+    padding:5px;
+}
+
+#dbg_sm [class*="nestedcol-"] {
+    background-color: #F07F80;
+    border: 0.5px solid white;
+    height: 185px;
+}
+
+[class*="nestedcol-"] > p{
+    font-size: 10px;
+    text-align: center;
+    line-height: 185px;
+
+}
+
+[class*="nestedcol-2"] > p{
+    font-size: 10px;
+    text-align: center;
+    line-height: normal;
+    padding-top:70px;
+}
+
+p span {
+    display: block;
+  }
+
+
+
+
+
+[class*="col-"] {
+    float: left;
+}
+
+.nestedcol-2 {
+    width: calc((100% / 12)* 2);
+}
+
+.nestedcol-6 {
+    width: 50%;
+}   
+
+.nestedcol-8 {
+    width: calc((100% / 12)* 8);
+}
+
+
+/* colonne */
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {
+    width: calc((100% / 12)* 1);
+}
+
+.col-2 {
+    width: calc((100% / 12)* 2);
+}
+
+.col-3 {
+    width: calc((100% / 12)* 3);
+}
+
+.col-4 {
+    width: calc((100% / 12)* 4);
+}
+
+.col-5 {
+    width: calc((100% / 12)* 5);
+}
+
+.col-6 {
+    width: 50%;
+}   
+
+.col-7 {
+    width: calc((100% / 12)* 7);
+}
+
+.col-8 {
+    width: calc((100% / 12)* 8);
+}
+
+.col-9 {
+    width: calc((100% / 12)* 9);
+}
+
+.col-10 {
+    width: calc((100% / 12)* 10);
+}
+
+.col-11 {
+    width: calc((100% / 12)* 11);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* offset */
+.col-offset-1{
+    margin-left: calc((100% / 12)* 1);
+}
+
+.col-offset-2{
+    margin-left: calc((100% / 12)* 2);
+}
+
+.col-offset-3{
+    margin-left: calc((100% / 12)* 3);
+}
+
+.col-offset-4{
+    margin-left: calc((100% / 12)* 4);
+}
+
+.col-offset-5{
+    margin-left: calc((100% / 12)* 5);
+}
+
+.col-offset-6{
+    margin-left: calc((100% / 12)* 6);
+}
+
+.col-offset-7{
+    margin-left: calc((100% / 12)* 7);
+}
+
+.col-offset-8{
+    margin-left: calc((100% / 12)* 8);
+}
+
+.col-offset-9{
+    margin-left: calc((100% / 12)* 9);
+}
+
+.col-offset-10{
+    margin-left: calc((100% / 12)* 10);
+}
+
+.col-offset-11{
+    margin-left: calc((100% / 12)* 11);
+}
+
+
+
+
+
+
+
+
+
